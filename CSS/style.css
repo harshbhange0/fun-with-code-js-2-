@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(234deg, #fff 0%, #fcabab 50%, #bdfc75 100% );
+    font-family: 'Noto Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.maine-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.abt-card-container{
+    width: 300px;
+    height: 430px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 #e8e7e7;
+    border-radius: 10px;
+    margin-top: 50px;
+    background: linear-gradient(234deg, #e3faf3 0%, #cffdea 50%, #cfe7fd 100% );
+    background-color: #fff;
+    transition: transform .2s;
+    border: 1px solid rgb(197, 197, 197);
+}
+.abt-card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 white;
+}
+.card-your-img-container{
+    display: block;
+    margin: auto;
+}
+.your-img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.your-name{
+    font-size: 35px;
+    margin: 20px ;
+    text-align: center;
+}
+.education{
+    font-size:25px ;
+    margin: 15px 0;
+    text-align: center
+}
+.card-about-you-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.git-link{
+    display: block;
+    margin:auto;
+}
+.github-img{
+    display: block;
+    margin:auto;
+    border-radius: 100%;
+    border: 1px solid black;
+    transition: transform .2s;
+}
+.github-img:hover{
+    box-shadow: 0 0 10px 0 rgb(39, 36, 36);
+    transform: scale(1.1);
+}

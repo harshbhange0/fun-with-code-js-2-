@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="CSS/index.css">
+    <script src="./script/app.js"></script>
 
     <title>Random-Img-Generator</title>
 </head>
 <body>
-   <div class="main-container">
+<nav class="nav">
+    <ul class="navbar">
+        <li class="navbar-item"><a href="" class="navbar-link">Home</a></li>
+        <li class="navbar-item"><a href="" class="navbar-link">About</a></li>
+        <li class="navbar-item"><a href="" class="navbar-link">Contact</a></li>
+    </ul>
+</nav>
+<h1 style="text-align: center;">Randomize Programming language </h1>
+
+    <div class="main-container">
+        <img src="./images/cyber-security/c++.png" alt="" class="random-img-image" id="imgRandomShow">
+        <img src="./images/cyber-security/c++icone.png" alt="" class="random-icon-icon" id="iconRandomShow">
     </div>
-    <button class="random-btn">Randomize</button>        
+    <select id="category">
+        <option value="webDev">Select category</option>
+        <option value="webDev">Web Development</option>
+        <option value="cybSec">Cybersecurity</option>
+        <option value="roboPro">Robotic Programming Lang.</option>
+        <option value="blochDev">Blockchain Development</option>
+    </select>
     <div class="link-container">
-       
+        <p id="randomTextInfo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quod!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quod!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, quod!
+        </p>
+        <a href="" id="randomTextLink">
+        </a>
     </div>
-    <div>
-        <button class="copy-btn">Copy To Clipboard</button>
+    <div class="button-container">
+        <button class="btn" id="buttonGenerate" onclick="randomImageGenerator()">Randomize</button>
+        <button class="btn" id="copyBtn">Copy To Clipboard</button>
     </div>
-   </div> 
 </body>
+
 </html>

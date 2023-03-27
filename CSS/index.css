@@ -4,6 +4,9 @@ body{
     padding: 0;
     box-sizing: border-box;
     background: linear-gradient(128deg, #bfffe8 0%, #fdbcff 50%, #f6fdd3 100% );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
 }
 .nav{
@@ -35,6 +38,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 0; 
+    flex-wrap: wrap;
 }
 .random-img-image{
     width: 600px;
@@ -114,6 +118,9 @@ body{
     @media only screen and (max-width: 700px){
        body{
         background: linear-gradient(128deg, #dafdf0 0%, #f886c5 50%, #e7ff70 100% );
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
        }
        .random-img-image{
         width: 400px;
@@ -133,6 +140,7 @@ body{
        }
        #randomTextLink{
         width: auto;
+        margin: 10px auto;
         font-size: 10px;
         border-radius: 5px;
        }
@@ -142,9 +150,6 @@ body{
        }
        .link-container{
         margin: 20px auto;
-       }
-       .main-container{
-        flex-wrap: wrap;
        }
        .button-container{
         margin: 20px auto;

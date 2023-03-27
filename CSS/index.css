@@ -82,13 +82,13 @@ body{
 }
 #randomTextLink{
     display: block;
-    width: 900px;
-    margin: 50px auto ;
+    margin: auto ;
     text-align: center;
     font-size: 20px;
 }
 .link-container{
-    margin: 0 210px;
+    margin: 0 auto;
+    width: 50%;
     border-radius: 15px;
     background-color: #ffffff86;
     border: 1px solid #fafafa;
@@ -115,12 +115,13 @@ body{
 }
 
 
-    @media only screen and (max-width: 700px){
+    @media only screen and (max-width: 900px){
        body{
-        background: linear-gradient(128deg, #dafdf0 0%, #f886c5 50%, #e7ff70 100% );
+        background: linear-gradient(128deg, #bcfde5 0%, #ffd2eb 50%, #f8fde0 100% );
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        height: 100%;
        }
        .random-img-image{
         width: 400px;
@@ -128,7 +129,7 @@ body{
         border-radius: 5px;
     }
        .random-icon-icon{
-        width: 60px;
+        width: auto;
         height: 60px;
         border-radius: 5px;
        }

@@ -8,6 +8,7 @@ body{
     background-position: center;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 .nav{
     
@@ -80,7 +81,13 @@ body{
     text-align: center;
     font-size: 20px;
 }
-#randomTextLink{
+#randomTextLink1{
+    display: block;
+    margin: auto ;
+    text-align: center;
+    font-size: 20px;
+}
+#randomTextLink2{
     display: block;
     margin: auto ;
     text-align: center;
